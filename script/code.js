@@ -35,5 +35,22 @@
 // refers to the current context of code, which determines the accessibility of variables to JavaScript.
 
 
-let fullName = ("Zia Khan")
-console.log(fullName);
+// let fullName = ("Zia Khan")
+// console.log(fullName);
+
+// Question 2
+
+let personalDetails = {
+    firstName: "Zia",
+    lastName: "Khan",
+    age: 20,
+    subjects: ["english" , "math" , "history" ,"business studies" , "tourism"],
+    address: {
+        streetName :"Hood Road",
+        streetNumber: 15,
+        suburb: "Crawford",
+        city: "Cape Town", 
+        countryName: "South Africa"
+    }
+}
+console.log(personalDetails);
