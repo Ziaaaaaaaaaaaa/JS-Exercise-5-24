@@ -1,13 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>JS-Exercise</title>
-</head>
-<body>
-    
+  </head>
+  <body>
+    <!-- <div class="container">
+        
+          <label class="label" style="margin-right: 1rem">Number 1</label>
+          <input type="number" style="margin-bottom: 20px" id="numb1" >
+        <div>
+          <label
+            class="label"
+            style="margin-right: 1rem; padding-inline-end: 1rem"
+            >Operator</label
+          >
+          <input type="text" style="margin-bottom: 20px" id="operator" >
+          <div>
+            <label class="label" style="margin-right: 1rem">Number 2</label>
+            <input type="number" style="margin-bottom: 20px" id="numb2">
+            <div>
+              <div>
+                <p style="color: antiquewhite" id="result"></p>
+              </div>
+            </div>
+            <div class="btn" style="margin-left: 14.2rem; margin-top: 1rem">
+              <button onclick="display()">Display</button>
+            </div>
+          </div>
+        </div>
+    </div> -->
+
+    <div class="container">
+        <label for="number1">Number 1:</label>
+        <input type="number" name="number1" id="numb1">
+
+        <label for="Operator">Operator:</label>
+        <input type="text" name="Operator" id="operator">
+
+        <label for="number1">Number 2:</label>
+        <input type="number" name="number2" id="numb2">
+
+        <p id="result" style="color: white"></p>
+        <button onclick="display()">Calculate</button>
+    </div>
     <script src="./script/code.js"></script>
-</body>
+  </body>
 </html>

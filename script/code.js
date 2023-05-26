@@ -40,17 +40,47 @@
 
 // Question 2
 
-let personalDetails = {
-    firstName: "Zia",
-    lastName: "Khan",
-    age: 20,
-    subjects: ["english" , "math" , "history" ,"business studies" , "tourism"],
-    address: {
-        streetName :"Hood Road",
-        streetNumber: 15,
-        suburb: "Crawford",
-        city: "Cape Town", 
-        countryName: "South Africa"
+// let personalDetails = {
+//     firstName: "Zia",
+//     lastName: "Khan",
+//     age: 20,
+//     subjects: ["english" , "math" , "history" ,"business studies" , "tourism"],
+//     address: {
+//         streetName :"Hood Road",
+//         streetNumber: 15,
+//         suburb: "Crawford",
+//         city: "Cape Town", 
+//         countryName: "South Africa"
+//     }
+// }
+// console.log(personalDetails);
+
+function display() {
+    let number1 = +document.querySelector('#numb1').value;
+    let number2 = +document.querySelector('#numb2').value;
+    let operator = document.querySelector('#operator').value;
+    let result = document.querySelector('#result');
+
+    switch (operator) {
+      case '+':
+        result.textContent = number1 + number2;
+        break;
+      case '-':
+        result = number1 - number2;
+        break;
+      case '*':
+        result = number1 * number2;
+        break;
+      case '/':
+        result = number1 / number2;
+        break;
+      default:
+        result = 'Invalid operator';
     }
+  
+    // document.getElementById('result').innerHTML = 'Answer: ' + result.value;
 }
-console.log(personalDetails);
+
+
+
+
